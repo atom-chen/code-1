@@ -1,0 +1,3 @@
+hotupdate change 2016年6月17日 013217:将大部分lua文件设置于热更后才require 这样大多lua文件都能热更替换，但是TimerManager和Utils热更前就require
+
+2016-6-17 101810：TimerManager和Utils转为热更后再require。实现所有文件的热更新
