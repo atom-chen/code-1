@@ -3,7 +3,8 @@
 
 #include <iostream>
 #include <vector>
-#include "pthread\pthread.h"
+#include <mutex>
+//#include "pthread\pthread.h"
 #include "cocos2d.h"
 USING_NS_CC;
 
@@ -34,6 +35,10 @@ public:
 	void postNotifications(float dt);
 	~MTNotificationQueue(void);
 	void postNotification(const char* name, Ref* object);
+
+	void sendMessage(Ref* pSender);
+	void updateView(Ref* pSender);
+	std::mutex g_mutex;
 };
 
 
