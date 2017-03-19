@@ -1,0 +1,7 @@
+ChargeGoods = {}
+ChargeGoods[1] = {ID = 1, limit = 198, name = "1980元宝",platform =  187,chargePlatId = 0,code = "GCOL1980"}
+ChargeGoods[2] = {ID = 2, limit = 30, name = "300元宝",platform =  187,chargePlatId = 0,code = "GCOL300"}
+ChargeGoods[3] = {ID = 3, limit = 328, name = "3280元宝",platform =  187,chargePlatId = 0,code = "GCOL3280"}
+ChargeGoods[4] = {ID = 4, limit = 6, name = "60元宝",platform =  187,chargePlatId = 0,code = "GCOL60"}
+ChargeGoods[5] = {ID = 5, limit = 648, name = "6480元宝",platform =  187,chargePlatId = 0,code = "GCOL6480"}
+ChargeGoods[6] = {ID = 6, limit = 98, name = "980元宝",platform =  187,chargePlatId = 0,code = "GCOL980"}
